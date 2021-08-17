@@ -1,0 +1,5 @@
+const logModule = require('./local-module')
+logModule.info("Thhi is information")
+logModule.warn("Thhi is warning")
+logModule.error("Thhi is error")
+// console.log(logModule)
