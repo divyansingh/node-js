@@ -3,14 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyansingh/node-js.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.12"
-  }
+  "bugs": {
+    "url": "https://github.com/divyansingh/node-js/issues"
+  },
+  "homepage": "https://github.com/divyansingh/node-js#readme"
 }
